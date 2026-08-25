@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink text-chalk font-body antialiased;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Live signal dot, pulses gently to signal "this panel is a live embed" */
+.signal-dot {
+  box-shadow: 0 0 0 0 rgba(79, 180, 168, 0.6);
+  animation: pulse-teal 2.2s infinite;
+}
+
+@keyframes pulse-teal {
+  0% {
+    box-shadow: 0 0 0 0 rgba(79, 180, 168, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(79, 180, 168, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(79, 180, 168, 0);
+  }
+}
+
+/* Visible keyboard focus, kept intentional rather than default blue ring */
+:focus-visible {
+  outline: 2px solid #e8a33d;
+  outline-offset: 2px;
+}
