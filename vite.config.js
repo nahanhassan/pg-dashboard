@@ -10,9 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'PG— Dashboards',
-        short_name: 'Panel',
-        description: 'A handful of live dashboards, one tap away.',
+        name: 'PG—Dashboards',
+        short_name: 'Dashboard',
+        description: 'live dashboards, one tap away.',
         theme_color: '#0F1620',
         background_color: '#0F1620',
         display: 'standalone',

@@ -27,13 +27,13 @@ export const dashboards = [
     title: 'Sweater-Linking',
     description: 'Target & Achievement Analysis',
     embedUrl:
-      'https://docs.google.com/spreadsheets/d/e/2PACX-1vTRHo2Mb9a4949DGRZHNiqRiHtpGfjNTfYeXoywSowekOgZCd1U8-cEOAE4Du7H0F4Kqwpsmm8DKVxm/pubhtml?widget=true&amp;headers=false'
+      'https://docs.google.com/spreadsheets/d/e/2PACX-1vRl2QJYoMiFf1R0STOQlRrZekCDamX2ndNHxLE5eY5tKPJmrXKTdcpsXPWdOc1OW1fCBqzkwLOodBKI/pubhtml?gid=220845210&amp;single=true&amp;widget=true&amp;headers=false'
   },
   {
     slug: 'finishing',
     title: 'Sweater-Finishing',
     description: 'Target & Achievement, Inspection, Shipment Schedule',
     embedUrl:
-      'https://docs.google.com/spreadsheets/d/e/2PACX-1vTRHo2Mb9a4949DGRZHNiqRiHtpGfjNTfYeXoywSowekOgZCd1U8-cEOAE4Du7H0F4Kqwpsmm8DKVxm/pubhtml?gid=200169650&amp;single=true&amp;widget=true&amp;headers=false'
+      'https://docs.google.com/spreadsheets/d/e/2PACX-1vSlnmXoAsKeRGnQZcg6ri6H2bIdHSpmCQ6uPAZxSJdEEMGiy1G_EeSzbpoRnOawulNMcrM0HOscc-X7/pubhtml?gid=220845210&amp;single=true&amp;widget=true&amp;headers=false'
   }
 ]
