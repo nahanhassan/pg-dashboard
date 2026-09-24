@@ -9,17 +9,17 @@
 
 export const dashboards = [
   {
-    slug: 'garments',
-    title: 'Garments Combined Dashboard',
-    description: 'Combined Garments Operational Summary',
-    embedUrl:
-      'https://docs.google.com/spreadsheets/d/e/2PACX-1vQkeOwYgRsouLtZQWEzfQun2J8dbbdoQhaQrYbpb9HZuL02PfgqmwXA0Zx-JKzYVLjmmuFhta9Pbd6i/pubhtml?gid=742606655&single=true&widget=true&headers=false'
-  },
-  {
     slug: 'sweater',
     title: 'Sweater Dashboard',
-    description: 'Sweater Operational Summary',
+    description: 'Only SSIP and PCTL Sweater',
     embedUrl:
       'https://docs.google.com/spreadsheets/d/e/2PACX-1vSBK-YsOV6CSggG9KCHTlFhHxOJ9CI0UZ-zW79ZiJUJkic2_r3Byx5tx1HDWISWAI4ZZwYbW4bNd3T0/pubhtml?gid=248940803&amp;single=true&amp;widget=true&amp;headers=false'
+  },
+    {
+    slug: 'garments',
+    title: 'Garments Dashboard',
+    description: 'Combined Knit & Woven Garments',
+    embedUrl:
+      'https://docs.google.com/spreadsheets/d/e/2PACX-1vQkeOwYgRsouLtZQWEzfQun2J8dbbdoQhaQrYbpb9HZuL02PfgqmwXA0Zx-JKzYVLjmmuFhta9Pbd6i/pubhtml?gid=742606655&single=true&widget=true&headers=false'
   }
 ]
