@@ -20,6 +20,6 @@ export const dashboards = [
     title: 'Garments Dashboard',
     description: 'Combined Knit & Woven Garments',
     embedUrl:
-      'https://docs.google.com/spreadsheets/d/e/2PACX-1vQkeOwYgRsouLtZQWEzfQun2J8dbbdoQhaQrYbpb9HZuL02PfgqmwXA0Zx-JKzYVLjmmuFhta9Pbd6i/pubhtml?gid=742606655&single=true&widget=true&headers=false'
+      'https://docs.google.com/spreadsheets/d/e/2PACX-1vTsqn-WTzTTCtvcXDIYIHlUPyRXDCQS96prMAU0gGQr3YSjCflSRsrsRlunEHH9eOoQKwZGhCtvl7OT/pubhtml?gid=742606655&single=true'
   }
 ]
